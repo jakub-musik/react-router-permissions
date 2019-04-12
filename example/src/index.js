@@ -5,7 +5,7 @@ import { AppContainer } from './app/AppContainer';
 import { store } from './store/store';
 
 import './styles.css';
-import './bootstrap.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
 const rootElement = document.getElementById('root');
 ReactDOM.render(
